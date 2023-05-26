@@ -1,0 +1,85 @@
+<div class="container">
+      <form action="" style="width: 100%;">
+      <div class="form-container">
+        
+        <div class="desgn">
+          <h2>SELECT REQUEST</h2>
+        </div>
+        <div class="form-1">
+            
+            <label for="" style="margin-top: 20px;">NAME</label>
+            <input class="text-center" type="text" placeholder="Ivan Bash Jamahali" disabled>
+            <label for="" style="margin-top: 20px;">COLLEGE</label>
+            <input class="text-center" type="text" placeholder="College of Computer Studies" disabled>
+            <label for="" style="margin-top: 20px;">COURSE</label>
+            <input type="text" placeholder="Bachelor of Science in Computer Science" class="text-center" disabled>
+        </div>
+            <div class="container1">
+              <div class="select-btn">
+                  <span class="btn-text">Nature of Request </span>
+                  <span class="arrow-dwn">
+                      <i class="fa-solid fa-chevron-down"></i>
+                  </span>
+              </div>
+  
+              <ul class="list-items">
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Transcript of Records (TOR)</span>
+                  </li>
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Incomplete (INC)</span>
+                  </li>
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Certification</span>
+                  </li>
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">CAV</span>
+                  </li>
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">CEFT</span>
+                  </li>
+                  <li class="item">
+                      <span class="checkbox">
+                          <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">DIPLOMA</span>
+                  </li>
+                  <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">AUTHENTICATION</span>
+                </li>
+                <li class="item">
+                  <span class="checkbox">
+                      <i class="fa-solid fa-check check-icon"></i>
+                  </span>
+                  <span class="item-text">UNITS</span>
+              </li>
+              </ul>
+          </div>
+          <div class="label-others">
+            <input type="checkbox">
+          <label for="" style="font-weight: 500; font-size: 1rem;">Others (please specify)</label>
+        </div> 
+        <div class="others">
+          <input type="text" >
+        </div>
+      </div> 
+    </form>
+    </div> 

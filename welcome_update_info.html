@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/welcome.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row sticky-top border-0 justify-content-center" style="background-color: rgb(15, 20, 36); height: 50px;">
+            <div class="col-md-6">
+                <div class="row navbar-light">
+                    <div class="col">
+                        <div class="text-center">
+                            <a class="nav-link text-white" style="font-size: 1.4rem; cursor: default; margin-top: 7px;">Welcome</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text-center  border-bottom" style="height: 43px;">
+                            <a class="nav-link text-white" style="font-size: 1.4rem; cursor: default; margin-top: 7px;">Update Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center" style="margin-top: 3rem; cursor: default;">
+            <div class="col">
+                <span class="text-light" style="font-size: 2.5rem; font-weight: 600; font-family: Montserrat;">Please udpate the following:</span>
+            </div>
+        </div>
+
+        <form action="" method="POST">
+            <input type="hidden" name="userid" value="{{userid}}">
+            <div class="row justify-content-center text-center mt-3">
+                <div class="col-md-3">
+                    <div class="row mt-5 mb-3">
+                        <div class="col">
+                            <select name="college" class="form-control border border-2" data-live-search="true" required>
+                                <option disabled="disabled" selected>Select College..</option>
+                                <option value="College of Agriculture">College of Agriculture</option>
+                                <option value="College of Architecture">College of Architecture</option>
+                                <option value="College of Asian and Islamic Studies">College of Asian and Islamic Studies</option>
+                                <option value="College of Computer Studies">College of Computer Studies</option>
+                                <option value="College of Criminal Justice Education">College of Criminal Justice Education</option>
+                                <option value="College of Engineering">College of Engineering</option>
+                                <option value="College of Forestry and Environment Studies">College of Forestry and Environment Studies</option>
+                                <option value="College of Home Economics">College of Home Economics</option>
+                                <option value="College of Law">College of Law</option>
+                                <option value="College of Liberal Arts">College of Liberal Arts</option>
+                                <option value="College of Medicines">College of Medicines</option>
+                                <option value="College of Nursing">College of Nursing</option>
+                                <option value="College of Public Administration and Development Studies">College of Public Administration and Development Studies</option>
+                                <option value="College of Sports Science and Physical Education">College of Sports Science and Physical Education</option>
+                                <option value="College of Science and Mathematics">College of Science and Mathematics</option>
+                                <option value="College of Social Work and Community Development">College of Social Work and Community Development</option>
+                                <option value="College of Teacher Education">College of Teacher Education</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                          <input type="text" name="course" class="form-control" placeholder="Ex. BS Computer Science" >
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                          <input type="number" name="sc-id" class="form-control" placeholder="School ID">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="input-group-append">
+                                <span class="input-group-text" style="width: 3rem; cursor: default;">
+                                    <span>+63</span>
+                                </span>
+                                <input type="number" name="mobile" class="form-control" placeholder="Mobile Number" >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="password" name="password" class="form-control" placeholder="Password" id="password">
+                                <div class="input-group-append">
+                                </div>
+                            </div>
+                            <div class="mt-1">
+                                <i class="text-light">Note: Password must be 12 characters above.</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center mt-5 mb-5">
+                <div class="col">
+                   <button type="submit" class="btn btn-lg button" style="font-weight: 600;"><a href="/success.html" style="text-decoration: none;" class="button">Update</a></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

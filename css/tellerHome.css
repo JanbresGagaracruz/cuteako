@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.mobile{
+    display: none;
+}
+
+.mobile-disable{
+    display: none;
+}
+.profile-btn{
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+.img{
+    height: 80;
+    width: 200;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.buttn-card{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    row-gap: 20px;
+    position: relative;
+    right: 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper1{
+    display: flex;
+}
+.buttn-card h1{
+    font-weight: bold;
+}
+.vertical{
+    height: 600px;
+    width: 2px;
+    background-color: gray;
+    opacity: .6;
+    position: relative;
+    left: 1000px;
+    bottom: 730px;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(122, 105, 53);
+    width: 100%;
+}
+.navbar .navbar-nav {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 1px; 
+    text-align: center; 
+}
+
+.btn-dash{
+    text-decoration: none;
+    width: 330px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+.btn-dash:hover{
+    text-decoration: none;
+}
+.btn1{
+    position: relative;
+    bottom: 20px;
+    border-radius: 12px;
+    width: 330px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.btn1:hover{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 40%;
+}
+.logo-workspace{
+    width: 31%;
+}
+.navbar .nav-item{
+    padding: 0px 5px;
+    
+}
+.navbar .nav-link{
+    color: white;
+}
+.navbar .nav-link:hover{
+  opacity: .5;
+    
+}
+@media screen and (max-width: 1200px){
+    .img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1190px)
+{
+    .desktop{
+        display: none;
+    }
+
+    .mobile {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        color: red;
+        height: 100%;
+      }
+      .mobile h2 {
+        animation: blink 1s linear infinite alternate;
+      }
+      @keyframes blink {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+}

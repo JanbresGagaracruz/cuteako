@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,600;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+html,body{
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+
+}
+.wrapper{
+    padding: 0px 100px;
+    padding-top: 30px;
+    margin: 0;
+    background-color: #4e030c;
+    margin-bottom: 80px;
+}
+.services{
+   margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.logo{
+    width: 40%;
+}
+.service-tag{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.navbar{
+    position: relative;
+    width: 96%;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: rgb(238, 236, 236);
+    border-radius: 10px;
+
+}
+.navbar .navbar-nav {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navbar .nav-item{
+    padding: 0px 20px;
+   margin: 0 auto;
+}
+.button-service{
+    background-color: rgb(162,2,2);
+}
+.navbar .nav-link{
+    font-weight: 500;
+    color:#000000;
+    border-radius: 8px;
+    transition: 0.3s;
+    transition-property: background;
+
+}
+.navbar .nav-link:hover{
+    background: rgb(220,20,60);
+    color: #fff;
+}
+.cl{
+    position: relative;
+    padding-top: 10px;
+    left: 15px;
+    width: 96%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.services{
+    position: relative;
+    max-width: 100%;
+    padding: 10px 100px;
+}
+.btn-serv{
+    display: grid;
+    width: 400px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordion-item{
+    width: 80%;
+    justify-content: center;
+}
+
+
+.h2{
+    text-align: center;
+
+    margin-top: 40px;
+
+}
+.accordion-button:not(.collapsed){
+    color: red !important;
+
+}
+
+.nav-btn{
+    font-size: 10px;
+}
+
+.paa {
+    padding-bottom: 4rem;
+    height: 10px;
+  }
+.word{
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+.nav-link{
+    width: 200px;
+}
+.accordion{
+    font-size: .9rem;
+}
+.accordion button{
+    font-size: 1rem;
+}
+.wrapper{
+    padding: 0;
+}
+.cl{
+    height: 60%;
+}
+.services{
+    padding: 0px 0px;
+}
+.services h2{
+    font-size: 1.2rem;
+}
+.service-tag{
+    padding-top: -20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+}
+.navbar .create-btn{
+    border: none;
+    background-color: rgb(184, 56, 71);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: lighter;
+}
+.navbar .create-btn:hover{
+    background-color: rgb(150, 44, 56, 2);
+    color: white;
+    font-weight: lighter;
+}
+
+@media (max-width: 1000px){
+    .logo{
+        width: 75%;
+    }
+
+};
+
